@@ -1,10 +1,12 @@
 body {
     background-color: white;
 }
-.centered {
-  position: fixed;
-  top: 50%;
+.imageContainer{
+  position: absolute;
+  width: 100px; /*the image width*/
+  height: 100px; /*the image height*/
   left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
+  top: 50%;
+  margin-left: -50px; /*half the image width*/
+  margin-top: -50px; /*half the image height*/
 }
